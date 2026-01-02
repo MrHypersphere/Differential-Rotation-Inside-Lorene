@@ -1,0 +1,46 @@
+# LORENE output files
+*.o
+*.a
+*.so
+*.d
+!params/*.d
+!eos/README.md
+!results/README.md
+
+# Results (large binary files)
+results/run_*/
+
+# EOS tables (large, should be downloaded separately)
+eos/*.nb
+eos/*.thermo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives
+*.tar.gz
+*.zip
+
+# Temporary files
+tmp/
+temp/
