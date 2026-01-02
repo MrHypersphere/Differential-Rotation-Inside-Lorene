@@ -74,7 +74,7 @@ neutron-star-type-c-dr/
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/neutron-star-type-c-dr.git
+   git clone https://github.com/MrHypersphere/neutron-star-type-c-dr.git
    cd neutron-star-type-c-dr
    ```
 
